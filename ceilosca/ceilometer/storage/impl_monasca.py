@@ -30,7 +30,7 @@ import ceilometer
 from ceilometer.i18n import _
 from ceilometer import monasca_client
 
-from ceilometer.openstack.common import threadgroup
+from oslo_service import threadgroup
 from ceilometer.publisher.monasca_data_filter import MonascaDataFilter
 from ceilometer.storage import base
 from ceilometer.storage import models as api_models
